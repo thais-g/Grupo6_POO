@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Login do Profissional</title>
+</head>
+<body>
+    <form method="POST" action="autentica">
+        <div>
+            <label for="cpf">Usuário:</label>
+            <input type="text" id="cpf" name="cpf" placeholder="Digite o seu CPF aqui.">
+        </div>
+        <div>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" placeholder="Digite a sua senha aqui.">
+        </div>
+        <input type="hidden" name="tipo" value="profissional">
+        <input type="submit" name="enviar" value="autentica"> <input type="reset" name="limpar" value="Limpar">
+    </form>
+    <br>
+    <a href="home">Página Inicial</a>
+</body>
+</html>
